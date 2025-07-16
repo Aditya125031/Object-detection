@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adi/my_robo/src/build/mclaren_robo
+[35m[1mConsolidate compiler generated dependencies of target wall_alert_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wall_alert_node.dir/src/wall_checker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wall_alert_node[0m
+[100%] Built target wall_alert_node
+-- Install configuration: ""
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/mclaren_p1_rsp_launch.py
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/robot_rviz.launch.py
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/mclaren_p1_launch.py
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/world
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/world/hennesey_world.world
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/mclaren_robot.rviz
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/mclaren_p1.urdf
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/shitty_bot.xacro
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/gazebo_control.xacro
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/robot.urdf.xacro
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/lib/mclaren_robo/wall_alert_node
+-- Set runtime path of "/home/adi/my_robo/src/install/mclaren_robo/lib/mclaren_robo/wall_alert_node" to ""
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/package_run_dependencies/mclaren_robo
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/parent_prefix_path/mclaren_robo
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/ament_prefix_path.sh
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/path.sh
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/path.dsv
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.bash
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.sh
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.zsh
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.dsv
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/package.dsv
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/packages/mclaren_robo
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/cmake/mclaren_roboConfig.cmake
+-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/cmake/mclaren_roboConfig-version.cmake
+-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/package.xml

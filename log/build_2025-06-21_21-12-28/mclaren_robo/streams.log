@@ -1,0 +1,83 @@
+[0.016s] Invoking command in '/home/adi/my_robo/src/build/mclaren_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adi/my_robo/src/mclaren_robo -DCMAKE_INSTALL_PREFIX=/home/adi/my_robo/src/install/mclaren_robo
+[0.268s] -- The C compiler identification is GNU 11.4.0
+[0.494s] -- The CXX compiler identification is GNU 11.4.0
+[0.507s] -- Detecting C compiler ABI info
+[0.613s] -- Detecting C compiler ABI info - done
+[0.623s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.623s] -- Detecting C compile features
+[0.624s] -- Detecting C compile features - done
+[0.629s] -- Detecting CXX compiler ABI info
+[0.725s] -- Detecting CXX compiler ABI info - done
+[0.735s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.735s] -- Detecting CXX compile features
+[0.736s] -- Detecting CXX compile features - done
+[0.741s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.052s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.127s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.136s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.151s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.284s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.290s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.427s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.531s] -- Looking for pthread.h
+[1.625s] -- Looking for pthread.h - found
+[1.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.717s] -- Found Threads: TRUE  
+[1.818s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.877s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.993s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.994s] -- Configured cppcheck include dirs: 
+[1.994s] -- Configured cppcheck exclude dirs and/or files: 
+[1.995s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.997s] -- Added test 'lint_cmake' to check CMake code style
+[1.998s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.002s] -- Added test 'uncrustify' to check C / C++ code style
+[2.002s] -- Configured uncrustify additional arguments: 
+[2.004s] -- Added test 'xmllint' to check XML markup files
+[2.006s] -- Configuring done
+[2.019s] -- Generating done
+[2.023s] -- Build files have been written to: /home/adi/my_robo/src/build/mclaren_robo
+[2.034s] Invoked command in '/home/adi/my_robo/src/build/mclaren_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adi/my_robo/src/mclaren_robo -DCMAKE_INSTALL_PREFIX=/home/adi/my_robo/src/install/mclaren_robo
+[2.037s] Invoking command in '/home/adi/my_robo/src/build/mclaren_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi/my_robo/src/build/mclaren_robo -- -j4 -l4
+[2.093s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_alert_node.dir/src/wall_checker.cpp.o[0m
+[15.142s] [100%] [32m[1mLinking CXX executable wall_alert_node[0m
+[15.916s] [100%] Built target wall_alert_node
+[15.928s] Invoked command in '/home/adi/my_robo/src/build/mclaren_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi/my_robo/src/build/mclaren_robo -- -j4 -l4
+[15.939s] Invoking command in '/home/adi/my_robo/src/build/mclaren_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi/my_robo/src/build/mclaren_robo
+[15.948s] -- Install configuration: ""
+[15.948s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch
+[15.948s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/mclaren_p1_rsp_launch.py
+[15.948s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/robot_rviz.launch.py
+[15.948s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/mclaren_p1_launch.py
+[15.948s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/world
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/world/hennesey_world.world
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/mclaren_robot.rviz
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/mclaren_p1.urdf
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/shitty_bot.xacro
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/gazebo_control.xacro
+[15.949s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/robot.urdf.xacro
+[15.950s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/lib/mclaren_robo/wall_alert_node
+[15.955s] -- Set runtime path of "/home/adi/my_robo/src/install/mclaren_robo/lib/mclaren_robo/wall_alert_node" to ""
+[15.955s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/package_run_dependencies/mclaren_robo
+[15.955s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/parent_prefix_path/mclaren_robo
+[15.955s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/ament_prefix_path.sh
+[15.955s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/ament_prefix_path.dsv
+[15.955s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/path.sh
+[15.956s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/path.dsv
+[15.956s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.bash
+[15.956s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.sh
+[15.956s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.zsh
+[15.956s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.dsv
+[15.956s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/package.dsv
+[15.957s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/packages/mclaren_robo
+[15.957s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/cmake/mclaren_roboConfig.cmake
+[15.957s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/cmake/mclaren_roboConfig-version.cmake
+[15.957s] -- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/package.xml
+[15.959s] Invoked command in '/home/adi/my_robo/src/build/mclaren_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi/my_robo/src/build/mclaren_robo

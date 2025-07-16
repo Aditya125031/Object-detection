@@ -1,0 +1,8 @@
+source;share/mclaren_robo/hook/cmake_prefix_path.ps1
+source;share/mclaren_robo/hook/cmake_prefix_path.dsv
+source;share/mclaren_robo/hook/cmake_prefix_path.sh
+source;share/mclaren_robo/local_setup.bash
+source;share/mclaren_robo/local_setup.dsv
+source;share/mclaren_robo/local_setup.ps1
+source;share/mclaren_robo/local_setup.sh
+source;share/mclaren_robo/local_setup.zsh

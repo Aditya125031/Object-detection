@@ -1,0 +1,4 @@
+source;share/mclaren_robo/local_setup.bash
+source;share/mclaren_robo/local_setup.dsv
+source;share/mclaren_robo/local_setup.sh
+source;share/mclaren_robo/local_setup.zsh

@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000377] (mclaren_robo) JobQueued: {'identifier': 'mclaren_robo', 'dependencies': OrderedDict()}
+[0.000446] (mclaren_robo) JobStarted: {'identifier': 'mclaren_robo'}
+[0.009201] (mclaren_robo) JobProgress: {'identifier': 'mclaren_robo', 'progress': 'cmake'}
+[0.009935] (mclaren_robo) JobProgress: {'identifier': 'mclaren_robo', 'progress': 'build'}
+[0.010738] (mclaren_robo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adi/my_robo/src/build/mclaren_robo', '--', '-j4', '-l4'], 'cwd': '/home/adi/my_robo/src/build/mclaren_robo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'adi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adi'), ('OLDPWD', '/home/adi/my_robo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adi/my_robo/src/install:/home/adi/hennesey_robo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adi-Inspiron-5567:@/tmp/.ICE-unix/1551,unix/adi-Inspiron-5567:/tmp/.ICE-unix/1551'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0442bcdb_9728_454f_82f5_6a79ea762bc8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0G8E82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adi/my_robo/src/install/mclaren_robo:/home/adi/hennesey_robo/install/hennesey_venom:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/home/adi/Downloads/extracted/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adi/my_robo/src/build/mclaren_robo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/adi/my_robo/src/install/mclaren_robo:/home/adi/hennesey_robo/install/hennesey_venom:/opt/ros/humble')]), 'shell': False}
+[0.040276] (mclaren_robo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099098] (-) TimerEvent: {}
+[0.188815] (mclaren_robo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199215] (-) TimerEvent: {}
+[0.224583] (mclaren_robo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.227693] (mclaren_robo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.235015] (mclaren_robo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.246265] (mclaren_robo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.260682] (mclaren_robo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299350] (-) TimerEvent: {}
+[0.300371] (mclaren_robo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.302103] (mclaren_robo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399460] (-) TimerEvent: {}
+[0.426521] (mclaren_robo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.489707] (mclaren_robo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.499583] (-) TimerEvent: {}
+[0.536497] (mclaren_robo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.599724] (-) TimerEvent: {}
+[0.618796] (mclaren_robo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.619054] (mclaren_robo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.619202] (mclaren_robo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.620019] (mclaren_robo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.621389] (mclaren_robo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.622325] (mclaren_robo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.626548] (mclaren_robo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.626833] (mclaren_robo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.627502] (mclaren_robo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.628917] (mclaren_robo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.640532] (mclaren_robo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.645211] (mclaren_robo) StdoutLine: {'line': b'-- Build files have been written to: /home/adi/my_robo/src/build/mclaren_robo\n'}
+[0.673653] (mclaren_robo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wall_alert_node\x1b[0m\n'}
+[0.692467] (mclaren_robo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wall_alert_node.dir/src/wall_checker.cpp.o\x1b[0m\n'}
+[0.699832] (-) TimerEvent: {}
+[0.800156] (-) TimerEvent: {}
+[0.900482] (-) TimerEvent: {}
+[1.000847] (-) TimerEvent: {}
+[1.101188] (-) TimerEvent: {}
+[1.201501] (-) TimerEvent: {}
+[1.301822] (-) TimerEvent: {}
+[1.402128] (-) TimerEvent: {}
+[1.502494] (-) TimerEvent: {}
+[1.602848] (-) TimerEvent: {}
+[1.703142] (-) TimerEvent: {}
+[1.803416] (-) TimerEvent: {}
+[1.903706] (-) TimerEvent: {}
+[2.004015] (-) TimerEvent: {}
+[2.104362] (-) TimerEvent: {}
+[2.204685] (-) TimerEvent: {}
+[2.305017] (-) TimerEvent: {}
+[2.405352] (-) TimerEvent: {}
+[2.505674] (-) TimerEvent: {}
+[2.605973] (-) TimerEvent: {}
+[2.706287] (-) TimerEvent: {}
+[2.806582] (-) TimerEvent: {}
+[2.906859] (-) TimerEvent: {}
+[3.007133] (-) TimerEvent: {}
+[3.107401] (-) TimerEvent: {}
+[3.207698] (-) TimerEvent: {}
+[3.307989] (-) TimerEvent: {}
+[3.408278] (-) TimerEvent: {}
+[3.508571] (-) TimerEvent: {}
+[3.608886] (-) TimerEvent: {}
+[3.709203] (-) TimerEvent: {}
+[3.809514] (-) TimerEvent: {}
+[3.909832] (-) TimerEvent: {}
+[4.010183] (-) TimerEvent: {}
+[4.110613] (-) TimerEvent: {}
+[4.210911] (-) TimerEvent: {}
+[4.311220] (-) TimerEvent: {}
+[4.411550] (-) TimerEvent: {}
+[4.511870] (-) TimerEvent: {}
+[4.612170] (-) TimerEvent: {}
+[4.712512] (-) TimerEvent: {}
+[4.812821] (-) TimerEvent: {}
+[4.913116] (-) TimerEvent: {}
+[5.013425] (-) TimerEvent: {}
+[5.113717] (-) TimerEvent: {}
+[5.214002] (-) TimerEvent: {}
+[5.314301] (-) TimerEvent: {}
+[5.414617] (-) TimerEvent: {}
+[5.514932] (-) TimerEvent: {}
+[5.615224] (-) TimerEvent: {}
+[5.715569] (-) TimerEvent: {}
+[5.815883] (-) TimerEvent: {}
+[5.916180] (-) TimerEvent: {}
+[6.016526] (-) TimerEvent: {}
+[6.116843] (-) TimerEvent: {}
+[6.217140] (-) TimerEvent: {}
+[6.317404] (-) TimerEvent: {}
+[6.417693] (-) TimerEvent: {}
+[6.517996] (-) TimerEvent: {}
+[6.618319] (-) TimerEvent: {}
+[6.718617] (-) TimerEvent: {}
+[6.818916] (-) TimerEvent: {}
+[6.919208] (-) TimerEvent: {}
+[7.019522] (-) TimerEvent: {}
+[7.119842] (-) TimerEvent: {}
+[7.220192] (-) TimerEvent: {}
+[7.320516] (-) TimerEvent: {}
+[7.420847] (-) TimerEvent: {}
+[7.521128] (-) TimerEvent: {}
+[7.621444] (-) TimerEvent: {}
+[7.721742] (-) TimerEvent: {}
+[7.822055] (-) TimerEvent: {}
+[7.922362] (-) TimerEvent: {}
+[8.022674] (-) TimerEvent: {}
+[8.122980] (-) TimerEvent: {}
+[8.223305] (-) TimerEvent: {}
+[8.323626] (-) TimerEvent: {}
+[8.423933] (-) TimerEvent: {}
+[8.524223] (-) TimerEvent: {}
+[8.624555] (-) TimerEvent: {}
+[8.724854] (-) TimerEvent: {}
+[8.825198] (-) TimerEvent: {}
+[8.925528] (-) TimerEvent: {}
+[9.025853] (-) TimerEvent: {}
+[9.126185] (-) TimerEvent: {}
+[9.226457] (-) TimerEvent: {}
+[9.326758] (-) TimerEvent: {}
+[9.427073] (-) TimerEvent: {}
+[9.527410] (-) TimerEvent: {}
+[9.627721] (-) TimerEvent: {}
+[9.728037] (-) TimerEvent: {}
+[9.828350] (-) TimerEvent: {}
+[9.928696] (-) TimerEvent: {}
+[10.029005] (-) TimerEvent: {}
+[10.129302] (-) TimerEvent: {}
+[10.229615] (-) TimerEvent: {}
+[10.329937] (-) TimerEvent: {}
+[10.430238] (-) TimerEvent: {}
+[10.530535] (-) TimerEvent: {}
+[10.630850] (-) TimerEvent: {}
+[10.731188] (-) TimerEvent: {}
+[10.831479] (-) TimerEvent: {}
+[10.931765] (-) TimerEvent: {}
+[11.032056] (-) TimerEvent: {}
+[11.132339] (-) TimerEvent: {}
+[11.232719] (-) TimerEvent: {}
+[11.333041] (-) TimerEvent: {}
+[11.433341] (-) TimerEvent: {}
+[11.533671] (-) TimerEvent: {}
+[11.634027] (-) TimerEvent: {}
+[11.734329] (-) TimerEvent: {}
+[11.834648] (-) TimerEvent: {}
+[11.934969] (-) TimerEvent: {}
+[12.035252] (-) TimerEvent: {}
+[12.135565] (-) TimerEvent: {}
+[12.235887] (-) TimerEvent: {}
+[12.336215] (-) TimerEvent: {}
+[12.436597] (-) TimerEvent: {}
+[12.536937] (-) TimerEvent: {}
+[12.637223] (-) TimerEvent: {}
+[12.737553] (-) TimerEvent: {}
+[12.837919] (-) TimerEvent: {}
+[12.938277] (-) TimerEvent: {}
+[13.038618] (-) TimerEvent: {}
+[13.138943] (-) TimerEvent: {}
+[13.239249] (-) TimerEvent: {}
+[13.339545] (-) TimerEvent: {}
+[13.439878] (-) TimerEvent: {}
+[13.453535] (mclaren_robo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wall_alert_node\x1b[0m\n'}
+[13.540015] (-) TimerEvent: {}
+[13.640351] (-) TimerEvent: {}
+[13.740698] (-) TimerEvent: {}
+[13.841060] (-) TimerEvent: {}
+[13.941394] (-) TimerEvent: {}
+[14.041695] (-) TimerEvent: {}
+[14.141992] (-) TimerEvent: {}
+[14.172429] (mclaren_robo) StdoutLine: {'line': b'[100%] Built target wall_alert_node\n'}
+[14.184991] (mclaren_robo) CommandEnded: {'returncode': 0}
+[14.185640] (mclaren_robo) JobProgress: {'identifier': 'mclaren_robo', 'progress': 'install'}
+[14.195571] (mclaren_robo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adi/my_robo/src/build/mclaren_robo'], 'cwd': '/home/adi/my_robo/src/build/mclaren_robo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'adi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adi'), ('OLDPWD', '/home/adi/my_robo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adi/my_robo/src/install:/home/adi/hennesey_robo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adi-Inspiron-5567:@/tmp/.ICE-unix/1551,unix/adi-Inspiron-5567:/tmp/.ICE-unix/1551'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0442bcdb_9728_454f_82f5_6a79ea762bc8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0G8E82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adi/my_robo/src/install/mclaren_robo:/home/adi/hennesey_robo/install/hennesey_venom:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', ':/home/adi/Downloads/extracted/opt/ros/humble/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adi/my_robo/src/build/mclaren_robo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/adi/my_robo/src/install/mclaren_robo:/home/adi/hennesey_robo/install/hennesey_venom:/opt/ros/humble')]), 'shell': False}
+[14.203863] (mclaren_robo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.204175] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch\n'}
+[14.204364] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/mclaren_p1_rsp_launch.py\n'}
+[14.204575] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/robot_rviz.launch.py\n'}
+[14.204766] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/launch/mclaren_p1_launch.py\n'}
+[14.204944] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/world\n'}
+[14.205153] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/world/hennesey_world.world\n'}
+[14.205327] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description\n'}
+[14.205525] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/mclaren_robot.rviz\n'}
+[14.205708] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/mclaren_p1.urdf\n'}
+[14.205885] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/shitty_bot.xacro\n'}
+[14.206057] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/gazebo_control.xacro\n'}
+[14.206218] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/description/robot.urdf.xacro\n'}
+[14.206493] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/lib/mclaren_robo/wall_alert_node\n'}
+[14.212656] (mclaren_robo) StdoutLine: {'line': b'-- Set runtime path of "/home/adi/my_robo/src/install/mclaren_robo/lib/mclaren_robo/wall_alert_node" to ""\n'}
+[14.212913] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/package_run_dependencies/mclaren_robo\n'}
+[14.213072] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/parent_prefix_path/mclaren_robo\n'}
+[14.213277] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/ament_prefix_path.sh\n'}
+[14.213426] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/ament_prefix_path.dsv\n'}
+[14.213621] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/path.sh\n'}
+[14.213806] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/environment/path.dsv\n'}
+[14.214010] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.bash\n'}
+[14.214176] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.sh\n'}
+[14.214380] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.zsh\n'}
+[14.214516] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/local_setup.dsv\n'}
+[14.214662] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/package.dsv\n'}
+[14.214875] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/ament_index/resource_index/packages/mclaren_robo\n'}
+[14.215021] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/cmake/mclaren_roboConfig.cmake\n'}
+[14.215138] (mclaren_robo) StdoutLine: {'line': b'-- Up-to-date: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/cmake/mclaren_roboConfig-version.cmake\n'}
+[14.215280] (mclaren_robo) StdoutLine: {'line': b'-- Installing: /home/adi/my_robo/src/install/mclaren_robo/share/mclaren_robo/package.xml\n'}
+[14.216814] (mclaren_robo) CommandEnded: {'returncode': 0}
+[14.235015] (mclaren_robo) JobEnded: {'identifier': 'mclaren_robo', 'rc': 0}
+[14.235822] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/adi/my_robo/src/build/mclaren_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adi/my_robo/src/mclaren_robo -DCMAKE_INSTALL_PREFIX=/home/adi/my_robo/src/install/mclaren_robo
+Invoked command in '/home/adi/my_robo/src/build/mclaren_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adi/my_robo/src/mclaren_robo -DCMAKE_INSTALL_PREFIX=/home/adi/my_robo/src/install/mclaren_robo
+Invoking command in '/home/adi/my_robo/src/build/mclaren_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi/my_robo/src/build/mclaren_robo -- -j4 -l4
+Invoked command in '/home/adi/my_robo/src/build/mclaren_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi/my_robo/src/build/mclaren_robo -- -j4 -l4
+Invoking command in '/home/adi/my_robo/src/build/mclaren_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi/my_robo/src/build/mclaren_robo
+Invoked command in '/home/adi/my_robo/src/build/mclaren_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi/my_robo/src/build/mclaren_robo
